@@ -8,7 +8,7 @@ This repository is a place to explain what I am learning, test ideas in public, 
 
 | Talk | Status |
 | --- | --- |
-| Scaling Laws, in a Nutshell | Planned |
+| [Scaling Laws, in a Nutshell](talks/scaling-laws-in-a-nutshell/) | In progress |
 | A Brief History of LLMs: From Chat Completion to Agents | Planned |
 | System Prompts in Coding Agents | Planned |
 | The Dev Loop in a Nutshell | Planned |
