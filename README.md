@@ -9,10 +9,10 @@ This repository is a place to explain what I am learning, test ideas in public, 
 | Talk | Status |
 | --- | --- |
 | [Scaling Laws, in a Nutshell](talks/scaling-laws-in-a-nutshell/) | In progress |
-| A Brief History of LLMs: From Chat Completion to Agents | Planned |
-| System Prompts in Coding Agents | Planned |
-| The Dev Loop in a Nutshell | Planned |
-| Why OpenCode Will Fail | Planned |
+| [A Brief History of LLMs: From Chat Completion to Agents](talks/brief-history-of-llms/) | Planned |
+| [System Prompts in Coding Agents](talks/system-prompts-in-coding-agents/) | Planned |
+| [The Dev Loop in a Nutshell](talks/dev-loop-in-a-nutshell/) | Planned |
+| [Why opencode Will Fail](talks/why-opencode-will-fail/) | Planned |
 
 ## Repository layout
 
