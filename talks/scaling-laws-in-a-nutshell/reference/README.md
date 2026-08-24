@@ -25,6 +25,7 @@ Levels describe what a source is suitable for; they are not a simple truth ranki
 - [Community and industry viewpoints](community-and-industry.md)
 - [AI infrastructure and HBM](ai-infrastructure-and-hbm.md)
 - [Cross-topic evidence audit](EVIDENCE_AUDIT.md)
+- [Full link and citation-target audit](LINK_CHECK.md)
 - [Agent execution record](RESEARCH_RUNS.md)
 
 ## Presentation thesis
@@ -93,7 +94,7 @@ These eight sources were selected from 20 candidates because they cover differen
 - **Team at publication:** Sebastian Borgeaud et al., Google DeepMind.
 - **Axes:** data, parameters, retrieval architecture, test-time compute.
 - **Use in the talk:** Evidence that capability need not be stored only in model parameters.
-- [Improving language models by retrieving from trillions of tokens — primary paper](https://arxiv.org/abs/2112.04426v1)
+- [Improving language models by retrieving from trillions of tokens — primary paper](https://arxiv.org/abs/2112.04426)
 
 ### 2022-02-15 — Anthropic: predictable loss, unpredictable behavior [A]
 
@@ -102,7 +103,7 @@ These eight sources were selected from 20 candidates because they cover differen
 - **Team at publication:** Deep Ganguli et al., Anthropic research and infrastructure.
 - **Axes:** parameters, data, pretraining compute, evaluation.
 - **Use in the talk:** The cleanest primary-source boundary between forecasting aggregate loss and forecasting specific behavior.
-- [Predictability and Surprise in Large Generative Models — primary paper](https://arxiv.org/abs/2202.07785v1)
+- [Predictability and Surprise in Large Generative Models — primary paper](https://arxiv.org/abs/2202.07785)
 
 ### 2022-10-19 — OpenAI: scaling a proxy reward can backfire [A]
 
@@ -129,7 +130,7 @@ These eight sources were selected from 20 candidates because they cover differen
 - **Team at publication:** Tomer Porian et al., Tel Aviv University, University of Washington, Jülich, and LAION.
 - **Axes:** parameters, data, pretraining compute.
 - **Use in the talk:** Independent evidence for the limited but real consensus around compute-optimal pretraining.
-- [Resolving Discrepancies in Compute-Optimal Scaling of Language Models — primary paper](https://arxiv.org/abs/2406.19146v1)
+- [Resolving Discrepancies in Compute-Optimal Scaling of Language Models — primary paper](https://arxiv.org/abs/2406.19146)
 
 ### 2024-07-01 — Princeton: agent gains can be misattributed [A]
 
@@ -157,7 +158,7 @@ These eight sources were selected from 20 candidates because they cover differen
 - **Axes:** post-training/RL, long context, test-time compute, environments.
 - **Use in the talk:** Strong Chinese primary evidence for strategic momentum toward RL scaling—not proof of a universal law.
 - **Caveat:** Comparisons with OpenAI o1 are the authors' benchmark claims, not independent evaluation.
-- [Kimi k1.5: Scaling Reinforcement Learning with LLMs — primary technical report](https://arxiv.org/abs/2501.12599v1)
+- [Kimi k1.5: Scaling Reinforcement Learning with LLMs — primary technical report](https://arxiv.org/abs/2501.12599)
 
 ## Data scaling and legal context
 
@@ -165,14 +166,15 @@ Company behavior shows that data has become a supply chain—covering acquisitio
 
 ### 2025-06-23 — Bartz v. Anthropic fair-use order [A]
 
-- [Order on Fair Use](https://www.copyright.gov/fair-use/summaries/Bartz-v-Anthropic-PBC-787-F-Supp-3d-1007-ND-Cal-2025.pdf)
+- [Order on Fair Use — Dkt. 231 court PDF](https://cases.justia.com/federal/district-courts/california/candce/3%3A2024cv05417/434709/231/0.pdf)
+- [U.S. Copyright Office Fair Use Index case summary](https://www.copyright.gov/fair-use/summaries/Bartz-v-Anthropic-PBC-787-F-Supp-3d-1007-ND-Cal-2025.pdf) — a two-page government summary, not the court order.
 - Court records document Anthropic's acquisition of Books3/LibGen/PiLiMi copies and its later purchase and destructive scanning of millions of paper books.
 - The order separated uses: particular training copies and one-to-one digitization of lawfully purchased books were treated differently from acquiring and retaining a central library of pirated copies.
 - This supports the factual data-supply-chain story, not a general claim that all AI training is lawful or that every acquired book entered every Claude model.
 
 ### 2026-07-20 — Bartz settlement final approval [A]
 
-- [Final approval order and judgment](https://s3.documentcloud.org/documents/28503369/anthropic-settlement-final-approval.pdf)
+- [Final approval order and judgment — Dkt. 680 court PDF](https://cases.justia.com/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/0.pdf)
 - The court approved a $1.5 billion class settlement for defined past acquisition and copying claims.
 - A settlement does not establish a universal copyright precedent; any appeal, effective-date, or distribution status after the order requires docket verification.
 
@@ -185,9 +187,9 @@ For OpenAI's public-web pipeline, licensed archives, platform/API partnerships, 
 | 2019-03-13 | **Richard Sutton [B]:** general methods that leverage computation ultimately win. | Intellectual precursor to scaling, not an LLM power law. | [The Bitter Lesson](http://incompleteideas.net/IncIdeas/BitterLesson.html) |
 | 2024-02-28 | **Demis Hassabis [B]:** push scaling while doubling down on invention. | Strategic judgment: pursue scale and new algorithms together. | [Dwarkesh interview](https://www.dwarkesh.com/p/demis-hassabis) |
 | 2024-03-07 | **Yann LeCun [B]:** autoregressive LLMs lack essential components for human-level intelligence. | Architecture-and-objective critique, not a claim that benchmark improvement stops. | [Lex Fridman transcript](https://lexfridman.com/yann-lecun-3-transcript/) |
-| 2024-07-18 | **Liang Wenfeng (梁文锋) [B]:** “我们偏乐观，整个行业看起来都符合预期。” | Scaling remains useful, while architecture, data efficiency, and original research determine progress per unit compute. | [Original interview](https://mp.weixin.qq.com/s/r9zZaEgqAa_lml_fOEZmjg) · [dated mirror](https://wallstreetcn.com/articles/3719982) |
+| 2024-07-22 | **Liang Wenfeng (梁文锋) [B]:** “我们偏乐观，整个行业看起来都符合预期。” | Scaling remains useful, while architecture, data efficiency, and original research determine progress per unit compute. | [36Kr / Waves interview](https://www.36kr.com/p/2872793466982535) · [2024-07-18 mirror](https://wallstreetcn.com/articles/3719982) |
 | 2025-04-10 | **Shunyu Yao (姚顺雨) [B]:** “evaluation becomes more important than training.” | A personal research agenda: task definition, environments, and real utility become bottlenecks. | [The Second Half](https://ysymyth.github.io/The-Second-Half/) |
-| 2025-04-11 | **David Silver and Richard Sutton [B]:** experience may dwarf human training data. | A research agenda for agent experience, not an established empirical law. | [The Era of Experience](http://incompleteideas.net/papers/TheEraOfExperience.pdf) · [dated post](https://x.com/RichardSSutton/status/1910761446637719588) |
+| 2025-04-11 | **David Silver and Richard Sutton [B]:** experience may dwarf human training data. | A research agenda for agent experience, not an established empirical law. | [Welcome to the Era of Experience — stable PDF](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf) |
 
 ## Context flags for presentation slides
 
@@ -206,3 +208,4 @@ For OpenAI's public-web pipeline, licensed archives, platform/API partnerships, 
 - Hacker News points and comments are dynamic snapshots, and commenter identities are generally unverifiable.
 - Refresh market prices and the latest earnings from one authorized source immediately before publication.
 - Labels describe evidentiary use. Even an A-level paper does not automatically establish a cross-task, cross-model universal scaling law.
+- For the complete 2026-08-24 URL results and the distinction between broken links and bot-blocked links, see [LINK_CHECK.md](LINK_CHECK.md).

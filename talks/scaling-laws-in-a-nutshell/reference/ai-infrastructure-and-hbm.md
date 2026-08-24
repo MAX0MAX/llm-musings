@@ -30,7 +30,7 @@ That sentence collapses technical evidence, company demand, memory supply, prici
 
 For a one-page market chart, use **total shareholder-price return from the last trading day of 2023 to the last trading day of 2024**, rebased to 100 and adjusted for NVIDIA's 2024 stock split. The following published year-end facts are usable as a **cross-check**, not as the final chart data:
 
-- NVIDIA: Reuters reported **+178% in 2024**.
+- NVIDIA: Reuters' **2024-12-31 updated version** reported **+178% in 2024**; the original 2024-12-23 snapshot used an earlier endpoint and reported 172%.
 - SK hynix: Reuters reported **+23% in 2024**.
 - Samsung Electronics: Reuters reported **−32% in 2024**.
 - Micron: the cleanest full-year quote found was StatMuse's **+0.6% in 2024**; Reuters reported that it was still about +22% immediately before its December 18 guidance and then fell sharply. Because StatMuse is below the requested source hierarchy, **refresh Micron and all four price series from one institutional market-data vendor before publication**.
@@ -285,10 +285,10 @@ The list below contains **21 distinct sources**. Company forecasts are labeled a
 
 - **Title:** Samsung Electronics Announces Results for Second Quarter of 2024
 - **Institution / date:** Samsung Newsroom, 2024-07-31
-- **Link:** https://news.samsung.com/nl/samsung-electronics-announces-results-for-second-quarter-of-2024
+- **Link:** https://news.samsung.com/global/samsung-electronics-announces-results-for-second-quarter-of-2024
 - **Key quote/fact:** concentrating capacity on HBM, AI server DRAM, and SSDs was expected to constrain conventional leading-edge PC/mobile bit supply.
 - **Why included:** direct company statement of the HBM-to-conventional-memory transmission.
-- **Evidence boundary:** forward-looking statement; regional Newsroom mirror of company release.
+- **Evidence boundary:** forward-looking company statement.
 
 ### S9 — Samsung Q1 2025 negative evidence
 
@@ -312,7 +312,7 @@ The list below contains **21 distinct sources**. Company forecasts are labeled a
 
 - **Title:** Fiscal Q1 2025 prepared remarks / earnings materials
 - **Institution / date:** Micron Investor Relations, 2024-12-18
-- **Link:** [Micron quarterly results archive](https://investors.micron.com/financials/quarterly-results/default.aspx); [transcript mirror](https://www.fool.com/earnings/call-transcripts/2024/12/18/micron-technology-mu-q1-2025-earnings-call-transcr/) (the former direct PDF now redirects to the IR homepage)
+- **Link:** [Micron official prepared remarks PDF](https://micron.gcs-web.com/static-files/21b50828-dd30-429f-9502-b1ebc452c6e3); [official quarterly-results archive](https://micron.gcs-web.com/quarterly-results)
 - **Key quote/fact:** calendar-2025 HBM output “sold out,” pricing determined; HBM revenue more than doubled sequentially; company forecast multiple billions in FY2025 HBM revenue.
 - **Why included:** strongest primary supply/order statement from Micron.
 - **Evidence boundary:** “sold out,” TAM, and future revenue are management statements, not audited future outcomes.
@@ -339,7 +339,7 @@ The list below contains **21 distinct sources**. Company forecasts are labeled a
 
 - **Title:** 2024 Q3 Earnings Call
 - **Institution / date:** Alphabet Investor Relations, 2024-10-29
-- **Link:** https://abc.xyz/investor/events/event-details/2024/2024-Q3-Earnings-Call/
+- **Link:** [Alphabet official earnings-call page](https://abc.xyz/2024-q3-earnings-call/)
 - **Key facts:** Q3 capex $13bn; technical infrastructure approximately 60% servers (TPUs/GPUs), 40% data centers/networking.
 - **Why included:** official breakdown of what capex buys and whom it serves.
 - **Evidence boundary:** not AI-only; the approximately $52.5bn CY2024 total should be refreshed from the 10-K before publication.
@@ -357,16 +357,16 @@ The list below contains **21 distinct sources**. Company forecasts are labeled a
 
 - **Title:** Amazon 2024 Form 10-K, Segment Information—Property and Equipment Additions
 - **Institution / date:** Amazon / U.S. SEC, filed 2025-02-07
-- **Link:** https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/R90.htm
+- **Link:** [Amazon 2024 Annual Report PDF](https://s2.q4cdn.com/299287126/files/doc_financials/2025/ar/Amazon-2024-Annual-Report.pdf) (property-and-equipment additions table on printed page 68)
 - **Key facts:** total 2024 additions $85.752bn; AWS $53.267bn versus $24.843bn in 2023.
-- **Why included:** regulator-hosted, segment-specific infrastructure measure.
+- **Why included:** filed 10-K content with a segment-specific infrastructure measure.
 - **Evidence boundary:** additions are not cash capex; AWS includes ordinary cloud capacity and leases.
 
 ### S17 — Amazon demand logic
 
 - **Title:** Amazon Q4 2024 earnings call transcript
-- **Institution / date:** Amazon call, 2025-02-06; accessible transcript copy by The Transcript
-- **Link:** https://thetranscript.net/transcript/7502/amazon.com-q4-2024-earnings-report
+- **Institution / date:** Amazon, 2025-02-06; accessible transcript copy by The Transcript
+- **Link:** [Amazon official earnings-call page](https://ir.aboutamazon.com/events/event-details/2025/Q4-2024-Amazoncom-Inc-Earnings-Conference-Call/default.aspx); [secondary transcript copy](https://thetranscript.net/transcript/7502/amazon.com-q4-2024-earnings-report)
 - **Key quote/fact:** Q4 capital investment $26.3bn; management said most technology infrastructure supported AWS, including AI services, and procurement follows significant demand signals.
 - **Why included:** explains why capacity is purchased.
 - **Evidence boundary:** transcript host is secondary; verify against Amazon webcast/official transcript before quoting verbatim. Forward capex comments are company expectations.
@@ -392,9 +392,9 @@ The list below contains **21 distinct sources**. Company forecasts are labeled a
 ### S20 — Reuters year-end NVIDIA market fact
 
 - **Title:** Markets in 2024: Wall Street's high-octane rally keeps investors captive to the US
-- **Institution / date:** Reuters, 2024-12-23
-- **Link:** https://www.reuters.com/markets/global-markets-year-end-graphic-2024-12-23/
-- **Key fact:** NVIDIA shares rose 178% in 2024.
+- **Institution / date:** Reuters, originally 2024-12-23; updated 2024-12-31
+- **Link:** [Reuters canonical](https://www.reuters.com/markets/global-markets-year-end-graphic-2024-12-23/)
+- **Key fact:** the 2024-12-31 updated version reports NVIDIA shares rose 178% in 2024; the original 2024-12-23 snapshot reported 172%.
 - **Why included:** authoritative market cross-check for the opening chart.
 - **Evidence boundary:** market return does not identify cause; exact endpoint/method should be reproduced from one data vendor.
 
@@ -402,7 +402,7 @@ The list below contains **21 distinct sources**. Company forecasts are labeled a
 
 - **Title:** Samsung's preliminary Q4 profit falls far short of estimates as chip issues drag
 - **Institution / date:** Reuters, 2025-01-08
-- **Link:** https://www.reuters.com/business/media-telecom/samsung-fourth-quarter-operating-profit-outlook-misses-estimates-by-large-margin-2025-01-07/
+- **Link:** [Reuters canonical](https://www.reuters.com/business/media-telecom/samsung-fourth-quarter-operating-profit-outlook-misses-estimates-by-large-margin-2025-01-07/)
 - **Key facts:** Samsung shares fell 32% in 2024; SK hynix rose 23%; Samsung missed profit expectations while working to qualify high-end HBM.
 - **Why included:** clean same-market-window counterexample and evidence that execution/expectations matter.
 - **Evidence boundary:** Reuters' causal discussion synthesizes analysts and market context; it is not a controlled attribution.
@@ -423,7 +423,7 @@ Therefore:
 ### Slide 1 — “Memory moved onto the AI stage”
 
 - Prefer the four rebased 2024 price lines after a licensed-data refresh.
-- Put two callouts only: NVIDIA +178%; Samsung −32% / SK hynix +23%.
+- Put two callouts only: NVIDIA +178% (Reuters' 2024-12-31 update); Samsung −32% / SK hynix +23%.
 - Say: “Markets repriced different positions in the AI hardware chain—but not uniformly.”
 - Speaker note: Micron's late-year reversal and Samsung's decline show why AI demand is not a complete stock explanation.
 

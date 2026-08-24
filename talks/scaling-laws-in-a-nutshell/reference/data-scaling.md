@@ -60,7 +60,7 @@ Anthropic 的极端案例是购买数百万册纸质书、拆除装订、裁页�
 
 ### 2.2 截至 2026-08-24 的案件状态
 
-2025 年双方就界定范围内的过去盗版取得与复制 claims 达成集体和解。2026 年 7 月 20 日，Judge Araceli Martínez-Olguín [批准 15 亿美元和解并进入 final judgment](https://s3.documentcloud.org/documents/28503369/anthropic-settlement-final-approval.pdf)。
+2025 年双方就界定范围内的过去盗版取得与复制 claims 达成集体和解。2026 年 7 月 20 日，Judge Araceli Martínez-Olguín [批准 15 亿美元和解并进入 final judgment（Dkt. 680）](https://cases.justia.com/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/0.pdf)。
 
 - 和解处理特定 class 范围内的过去行为，不等于 Anthropic 承认所有指控，也不建立“AI 训练是否属于 fair use”的普遍先例。
 - 2025 年 fair-use order 和 2026 年 final settlement order 回答不同问题，不能合并成一句“法院判 Anthropic 违法/合法”。
@@ -216,7 +216,7 @@ Muennighoff 等人进一步说明，重复数据可暂时缓冲数据墙，但�
 
 - **机构/作者：** U.S. District Court, Northern District of California；Judge William Alsup
 - **发布日期：** 2025-06-23
-- **直接链接：** https://www.copyright.gov/fair-use/summaries/Bartz-v-Anthropic-PBC-787-F-Supp-3d-1007-ND-Cal-2025.pdf
+- **直接链接：** https://cases.justia.com/federal/district-courts/california/candce/3%3A2024cv05417/434709/231/0.pdf
 - **来源类型：** 法院命令（一手）
 - **收录原因：** Anthropic 购买、拆解、扫描纸书以及 Books3、LibGen、PiLiMi 的最强公开证据。
 - **可支持的 claim：** 超过 700 万份盗版书副本的来源与时间；花费数百万美元购买、破坏性扫描数百万纸书；不同书籍子集进入不同训练 data mixes；书籍质量与成本效益的内部判断；各用途的 fair-use 裁定。
@@ -300,7 +300,7 @@ Muennighoff 等人进一步说明，重复数据可暂时缓冲数据墙，但�
 - **来源类型：** 公司官方说明（一手）
 - **收录原因：** OpenAI 对公共互联网、第三方合作、人类提供/生成信息和合成数据的最清楚通俗说明。
 - **可支持的 claim：** 三大信息来源；过滤垃圾和不需要内容；越来越多地用合成提示、多语言样本等补足稀疏或失衡数据。
-- **证据边界：** 页面会更新且无模型级数字；本次直接抓取超时，文字由搜索结果中的原文段落核对，不宜引用为固定历史版本。
+- **证据边界：** 页面会更新且无模型级数字；2026-08-24 链接检查返回 200，引用时仍应记录访问日或保存网页快照，不宜当作固定历史版本。
 
 ### 10. OpenAI Data Partnerships
 
@@ -310,7 +310,7 @@ Muennighoff 等人进一步说明，重复数据可暂时缓冲数据墙，但�
 - **来源类型：** 公司战略公告（一手）
 - **收录原因：** 直接说明 OpenAI 想获取哪些公共互联网之外的数据。
 - **可支持的 claim：** 征集大规模、多模态、体现人类意图且不易公开获取的数据；特别重视长篇写作和对话；同时建设开放与私有数据集。
-- **证据边界：** 是征集与战略声明，不证明任何提议数据已经用于某个模型；直接抓取超时，内容由工具返回的完整页面片段核对。
+- **证据边界：** 是征集与战略声明，不证明任何提议数据已经用于某个模型；2026-08-24 链接检查返回 200。
 
 ### 11. We’re bringing the Financial Times’ world-class journalism to ChatGPT
 
@@ -340,7 +340,7 @@ Muennighoff 等人进一步说明，重复数据可暂时缓冲数据墙，但�
 - **来源类型：** 官方合作公告
 - **收录原因：** 结构化、经社区验证的技术知识数据案例。
 - **可支持的 claim：** OpenAI 使用 OverflowAPI 改进开发者相关模型表现，并在 ChatGPT 中展示带归因的技术知识。
-- **证据边界：** API 使用可同时服务检索、产品和模型改进；公告不证明整个历史库进入预训练。直接抓取遇到 JavaScript 验证，正文由搜索返回原文核对。
+- **证据边界：** API 使用可同时服务检索、产品和模型改进；公告不证明整个历史库进入预训练。2026-08-24 链接检查返回 200。
 
 ### 14. OpenAI and Reddit Partnership
 

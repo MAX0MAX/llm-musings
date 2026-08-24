@@ -1,22 +1,22 @@
 # Scaling Laws, in a Nutshell — 全部来源总索引
 
-> 整理日期：2026-08-24
-> 范围：`README.md`、`data-scaling.md`、`explainers-and-storytelling.md`、`kaplan-and-chinchilla.md`、`lifecycle-scaling.md`、`community-and-industry.md`、`ai-infrastructure-and-hbm.md`、`EVIDENCE_AUDIT.md`。
+> 整理日期：2026-08-25
+> 范围：`README.md`、`READING_LIST.md`、`data-scaling.md`、`explainers-and-storytelling.md`、`kaplan-and-chinchilla.md`、`lifecycle-scaling.md`、`community-and-industry.md`、`ai-infrastructure-and-hbm.md`、`EVIDENCE_AUDIT.md`。
 > 去重口径：同一作品的论文页/PDF、官方发布页、视频/逐字稿、代码/数据仓库合并为一条；HN 讨论与被讨论的原文分别计数。`v1`、`pdf`、`html` 等 arXiv 变体不重复计数。
 
 ## 统计
 
-- **去重后材料总数：123**
-- **按等级：A 37；B 50；C 24；D 4；E 8**
-- **按材料类型：论文/技术报告 42；法院/监管文件 3；公司财报/产品/官方工程与战略材料 30；访谈/视频/课程/个人文章 21；独立研究/媒体/行业分析 15；VC/卖方研究 4；HN 讨论 8**
-- **链接覆盖：123/123 至少有一个直接链接。**
+- **去重后材料总数：124**
+- **按等级：A 38；B 50；C 24；D 4；E 8**
+- **按材料类型：论文/技术报告 43；法院/监管文件 3；公司财报/产品/官方工程与战略材料 30；访谈/视频/课程/个人文章 21；独立研究/媒体/行业分析 15；VC/卖方研究 4；HN 讨论 8**
+- **链接覆盖：124/124 至少有一个直接链接。**
 - **需人工复核：19 条材料、归并为 15 类问题**（见文末；均已有可打开或可恢复的链接，但存在付费墙、JS/超时、自动字幕、动态数据、二手托管或日期/版本问题）。
 
 等级沿用本目录口径：A 原始论文/法院/监管；B 原始访谈、公司技术与经营材料；C 独立综合、教学与专业研究；D VC/卖方产业论述；E 社区讨论。
 
-专题简称：`总览`=`README.md`；`数据`=`data-scaling.md`；`叙事`=`explainers-and-storytelling.md`；`KC`=`kaplan-and-chinchilla.md`；`生命周期`=`lifecycle-scaling.md`；`社区`=`community-and-industry.md`；`基建`=`ai-infrastructure-and-hbm.md`；`审计`=`EVIDENCE_AUDIT.md`。
+专题简称：`总览`=`README.md`；`阅读`=`READING_LIST.md`；`数据`=`data-scaling.md`；`叙事`=`explainers-and-storytelling.md`；`KC`=`kaplan-and-chinchilla.md`；`生命周期`=`lifecycle-scaling.md`；`社区`=`community-and-industry.md`；`基建`=`ai-infrastructure-and-hbm.md`；`审计`=`EVIDENCE_AUDIT.md`。
 
-## A — 原始论文、法院与监管材料（37）
+## A — 原始论文、法院与监管材料（38）
 
 - **A01｜2017-12-01｜Deep Learning Scaling is Predictable, Empirically｜Joel Hestness et al.｜论文｜[直接：arXiv](https://arxiv.org/abs/1712.00409)｜支持 Kaplan 之前已有跨领域可预测 learning curves。｜专题：总览、KC、审计**
 - **A02｜2019-09-27｜A Constructive Prediction of the Generalization Error Across Scales｜Jonathan S. Rosenfeld et al.｜论文｜[直接：arXiv](https://arxiv.org/abs/1909.12673)｜支持模型规模与数据规模的联合误差面前史。｜专题：总览、KC、审计**
@@ -30,7 +30,7 @@
 - **A10｜2024-08-06｜Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters｜Charlie Snell et al.｜论文｜[直接：arXiv](https://arxiv.org/abs/2408.03314)｜支持 test-time compute 的难度、verifier 与预算依赖。｜专题：总览、生命周期、叙事、审计**
 - **A11｜2020-05-28｜Language Models are Few-Shot Learners｜Tom B. Brown et al., OpenAI｜论文｜[直接：arXiv](https://arxiv.org/abs/2005.14165)；[正式论文 PDF](https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)；[补充材料](https://papers.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Supplemental.pdf)｜GPT-3 数据混合、过滤、去重及 Kaplan 曲线扩展。｜专题：数据、KC、审计**
 - **A12｜2024-05-28（ICML 2024 更新版）｜Will we run out of data? Limits of LLM scaling based on human-generated data｜Pablo Villalobos et al., Epoch AI｜论文｜[直接：PMLR](https://proceedings.mlr.press/v235/villalobos24a.html)；[补充：Epoch 分析](https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data)｜公共人类文本存量与 2026–2032 条件预测。｜专题：数据、社区、审计**
-- **A13｜2023-05-25｜Scaling Data-Constrained Language Models｜Niklas Muennighoff et al.｜论文｜[直接：arXiv](https://arxiv.org/abs/2305.16264)｜支持重复数据约四个 epoch 后边际价值衰减。｜专题：数据、KC、审计**
+- **A13｜2023-05-25｜Scaling Data-Constrained Language Models｜Niklas Muennighoff et al.｜论文｜[直接：arXiv](https://arxiv.org/abs/2305.16264)｜固定 compute 下，重复最多约四个 epoch 相比同量 unique data 的 loss 变化可忽略；之后追加 compute 的价值逐渐衰减。｜专题：数据、KC、审计**
 - **A14｜2023-06-01｜The RefinedWeb Dataset for Falcon LLM｜Guilherme Penedo et al., TII｜论文/数据集｜[直接：arXiv](https://arxiv.org/abs/2306.01116)｜支持过滤和去重后的网页数据可形成大规模高质量语料。｜专题：数据、审计**
 - **A15｜2024-07-24｜AI models collapse when trained on recursively generated data｜Ilia Shumailov et al.｜论文｜[直接：Nature](https://www.nature.com/articles/s41586-024-07566-y)｜支持无甄别递归合成数据的尾部丢失风险。｜专题：数据、生命周期、社区、审计**
 - **A16｜2019-09-04｜Beyond Human-Level Accuracy: Computational Challenges in Deep Learning｜Joel Hestness et al.｜论文｜[直接：arXiv](https://arxiv.org/abs/1909.01736)｜将 learning curves 用于能力目标所需资源估计。｜专题：KC**
@@ -52,9 +52,10 @@
 - **A32｜2025-03-18｜Measuring AI Ability to Complete Long Software Tasks｜METR｜论文｜[直接：arXiv](https://arxiv.org/abs/2503.14499)；[补充：分析代码](https://github.com/METR/eval-analysis-public)；[补充：2025-03-19 研究博客](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)｜支持 agent 任务时长趋势及可靠性边界。｜专题：生命周期、叙事、审计**
 - **A33｜2024-10-09｜SWE-Bench+: Enhanced Coding Benchmark for LLMs｜作者见论文｜论文｜[直接：arXiv](https://arxiv.org/abs/2410.06992)｜补充 agent benchmark 的泄漏、弱测试与评分问题。｜专题：生命周期**
 - **A34｜2024-10-02｜OpenMathInstruct-2: Accelerating AI for Math with Massive Open-Source Instruction Data｜Shubham Toshniwal et al., NVIDIA｜论文/数据集｜[直接：arXiv](https://arxiv.org/abs/2410.01560)；[补充：数据集](https://huggingface.co/datasets/nvidia/OpenMathInstruct-2)｜支持强教师、问题多样性、格式与 14M 合成数学样本的消融结论。｜专题：数据**
-- **A35｜2025-06-23｜Bartz v. Anthropic PBC — Order on Fair Use｜U.S. District Court, N.D. California；Judge William Alsup｜法院命令｜[直接：U.S. Copyright Office PDF](https://www.copyright.gov/fair-use/summaries/Bartz-v-Anthropic-PBC-787-F-Supp-3d-1007-ND-Cal-2025.pdf)｜Anthropic 的 Books3/LibGen/PiLiMi、纸书采购与扫描事实。｜专题：总览、数据、审计**
-- **A36｜2026-07-20｜Bartz v. Anthropic — Order Granting Final Approval and Judgment｜U.S. District Court, N.D. California；Judge Araceli Martínez-Olguín｜法院命令｜[直接：DocumentCloud 法院文件](https://www.documentcloud.org/documents/28503369-anthropic-settlement-final-approval/)；[PDF](https://s3.documentcloud.org/documents/28503369/anthropic-settlement-final-approval.pdf)｜15 亿美元集体和解 final approval/final judgment。**需人工复核后续上诉与生效/分配状态。**｜专题：总览、数据、审计**
-- **A37｜2025-02-07｜Amazon 2024 Form 10-K — Property and Equipment Additions｜Amazon / U.S. SEC｜监管文件｜[直接：SEC](https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/R90.htm)｜AWS 与公司 2024 property-and-equipment additions。｜专题：基建、审计**
+- **A35｜2025-06-23｜Bartz v. Anthropic PBC — Order on Fair Use｜U.S. District Court, N.D. California；Judge William Alsup｜法院命令｜[Dkt. 231 法院 PDF：Justia 托管](https://cases.justia.com/federal/district-courts/california/candce/3%3A2024cv05417/434709/231/0.pdf)；[补充：U.S. Copyright Office 两页摘要](https://www.copyright.gov/fair-use/summaries/Bartz-v-Anthropic-PBC-787-F-Supp-3d-1007-ND-Cal-2025.pdf)｜Anthropic 的 Books3/LibGen/PiLiMi、纸书采购与扫描事实；版权局材料仅作摘要，不能替代法院命令。｜专题：总览、数据、审计**
+- **A36｜2026-07-20｜Bartz v. Anthropic — Order Granting Final Approval and Judgment｜U.S. District Court, N.D. California；Judge Araceli Martínez-Olguín｜法院命令｜[Dkt. 680 法院 PDF：Justia 托管](https://cases.justia.com/federal/district-courts/california/candce/4%3A2024cv05417/434709/680/0.pdf)｜15 亿美元集体和解 final approval/final judgment。**需人工复核后续上诉与生效/分配状态。**｜专题：总览、数据、审计**
+- **A37｜2025-02-07｜Amazon 2024 Form 10-K — Property and Equipment Additions｜Amazon / U.S. SEC filing｜10-K 监管文件（Amazon 托管副本）｜[直接：Amazon 2024 Annual Report PDF](https://s2.q4cdn.com/299287126/files/doc_financials/2025/ar/Amazon-2024-Annual-Report.pdf)｜印刷页 68 的 AWS 与公司 2024 property-and-equipment additions。｜专题：基建、审计**
+- **A38｜2023-04-28｜Are Emergent Abilities of Large Language Models a Mirage?｜Rylan Schaeffer, Brando Miranda, Sanmi Koyejo｜论文｜[直接：arXiv](https://arxiv.org/abs/2304.15004)｜支持在固定模型输出上，非线性或不连续评价指标可能产生表观“涌现”，为能力曲线边界提供反证。｜专题：阅读**
 
 ## B — 一手公司材料、原始访谈与观点（50）
 
@@ -68,20 +69,20 @@
 - **B08｜2024-03-08｜Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context｜Gemini Team / Google｜公司技术报告｜[直接：arXiv PDF](https://arxiv.org/pdf/2403.05530)｜长上下文单 needle 强结果与 multi-needle 退化。｜专题：生命周期**
 - **B09｜2025-05｜System Card: Claude Opus 4 & Claude Sonnet 4｜Anthropic｜公司系统卡｜[直接：Anthropic](https://www.anthropic.com/claude-4-model-card)｜训练数据类别、爬虫、去重与分类披露。｜专题：数据、审计**
 - **B10｜2024-08-08｜GPT-4o System Card｜OpenAI｜公司系统卡｜[直接：OpenAI](https://openai.com/index/gpt-4o-system-card/)｜网页、代码、数学、多模态、合作和合成安全数据类别。｜专题：数据**
-- **B11｜首次发布日期未知；持续更新｜How ChatGPT and our foundation models are developed｜OpenAI Help Center｜公司说明｜[直接：OpenAI Help](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed)｜OpenAI 对公开、合作、人类提供及合成数据的概括。**动态页面/抓取曾超时，需人工复核引用版本。**｜专题：数据、审计**
-- **B12｜2023-11-09｜OpenAI Data Partnerships｜OpenAI｜公司战略公告｜[直接：OpenAI](https://openai.com/index/data-partnerships/)｜证明其征集非公开、长篇、多模态数据的战略。**页面抓取曾超时。**｜专题：数据**
+- **B11｜首次发布日期未知；持续更新｜How ChatGPT and our foundation models are developed｜OpenAI Help Center｜公司说明｜[直接：OpenAI Help](https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed)｜OpenAI 对公开、合作、人类提供及合成数据的概括。**2026-08-24 链接检查返回 200；动态页面仍需记录访问日或存档版本。**｜专题：数据、审计**
+- **B12｜2023-11-09｜OpenAI Data Partnerships｜OpenAI｜公司战略公告｜[直接：OpenAI](https://openai.com/index/data-partnerships/)｜证明其征集非公开、长篇、多模态数据的战略。**2026-08-24 链接检查返回 200；征集意图不证明数据已进入具体模型。**｜专题：数据**
 - **B13｜2024-04-29｜We’re bringing the Financial Times’ world-class journalism to ChatGPT｜Financial Times / OpenAI｜官方合作公告｜[直接：OpenAI](https://openai.com/index/content-partnership-with-financial-times/)｜授权新闻、产品归因与模型改进边界。｜专题：数据**
 - **B14｜2024-05-22｜A landmark multi-year global partnership with News Corp｜News Corp / OpenAI｜官方合作公告｜[直接：OpenAI](https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership/)｜当前和历史专业内容授权案例。｜专题：数据**
 - **B15｜2024-05-06｜API Partnership with Stack Overflow｜Stack Overflow / OpenAI｜官方合作公告｜[直接：OpenAI](https://openai.com/index/api-partnership-with-stack-overflow/)｜OverflowAPI、开发者模型改进与归因。**JS 验证，需人工重开。**｜专题：数据**
 - **B16｜2024-05-16｜OpenAI and Reddit Partnership｜Reddit / OpenAI｜官方合作公告｜[直接：OpenAI](https://openai.com/index/openai-and-reddit-partnership/)｜实时结构化社区数据访问；不等于全量预训练。｜专题：数据**
-- **B17｜2024-09-12｜Learning to reason with LLMs｜OpenAI｜官方技术说明｜[直接：OpenAI](https://openai.com/index/learning-to-reason-with-llms/)｜团队自报 train-time RL 与 test-time compute 曲线。**抓取曾超时，需人工复核。**｜专题：生命周期、审计**
+- **B17｜2024-09-12｜Learning to reason with LLMs｜OpenAI｜官方技术说明｜[直接：OpenAI](https://openai.com/index/learning-to-reason-with-llms/)｜团队自报 train-time RL 与 test-time compute 曲线。**2026-08-24 链接检查返回 200；曲线仍属团队自报。**｜专题：生命周期、审计**
 - **B18｜2025-09-29｜Effective context engineering for AI agents｜Anthropic｜官方工程文章｜[直接：Anthropic](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)｜compaction、结构化笔记、检索和持久记忆的工程经验。｜专题：生命周期、审计**
 - **B19｜2019-03-13｜The Bitter Lesson｜Richard Sutton｜个人原始文章｜[直接：作者站](http://incompleteideas.net/IncIdeas/BitterLesson.html)｜利用计算的通用方法、search 与 learning 的思想前史。｜专题：总览、叙事、生命周期**
 - **B20｜2024-02-28｜Demis Hassabis — Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold｜Dwarkesh Patel / Demis Hassabis｜原始访谈｜[直接：全文/节目](https://www.dwarkesh.com/p/demis-hassabis)；[补充：YouTube](https://www.youtube.com/watch?v=qTogNUV3CAI)｜支持“继续 scaling + 发明”战略判断。｜专题：总览、叙事、生命周期、审计**
 - **B21｜2024-03-07｜Lex Fridman Podcast #416 — Yann LeCun｜Lex Fridman / Yann LeCun｜原始访谈｜[直接：带时间戳全文](https://lexfridman.com/yann-lecun-3-transcript/)｜world model、memory、planning 的架构反方。**逐字引用仍需对照音频。**｜专题：总览、生命周期、审计**
-- **B22｜2024-07-18｜对话 DeepSeek 创始人梁文锋｜梁文锋 / 暗涌 Waves｜原始访谈｜[直接：微信原文](https://mp.weixin.qq.com/s/r9zZaEgqAa_lml_fOEZmjg)；[补充：日期镜像](https://wallstreetcn.com/articles/3719982)｜中国实验室对 scaling、效率与原创研究的判断。**微信访问稳定性需人工复核。**｜专题：总览**
+- **B22｜2024-07-22｜揭秘 DeepSeek：一个更极致的中国技术理想主义故事｜梁文锋 / 于丽丽 / 暗涌 Waves｜原始访谈｜[直接：36Kr / 暗涌](https://www.36kr.com/p/2872793466982535)；[补充：2024-07-18 镜像](https://wallstreetcn.com/articles/3719982)｜中国实验室对 scaling、效率与原创研究的判断；原微信 URL 已成为删除页。｜专题：总览**
 - **B23｜2025-04-10｜The Second Half｜Shunyu Yao｜个人研究议程｜[直接：作者站](https://ysymyth.github.io/The-Second-Half/)｜支持 evaluation、环境、长期记忆可能成为瓶颈。｜专题：总览、生命周期、审计**
-- **B24｜2025-04-11｜Welcome to the Era of Experience｜David Silver, Richard Sutton｜研究议程｜[直接：作者 PDF](http://incompleteideas.net/papers/TheEraOfExperience.pdf)；[稳定镜像](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)；[补充：日期帖](https://x.com/RichardSSutton/status/1910761446637719588)｜experience scaling 的原始研究议程，不是已成立定律。｜专题：总览、生命周期、社区、审计**
+- **B24｜2025-04-11｜Welcome to the Era of Experience｜David Silver, Richard Sutton｜研究议程｜[直接：DeepMind 托管 PDF](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)｜experience scaling 的原始研究议程，不是已成立定律。｜专题：总览、生命周期、社区、审计**
 - **B25｜2025-02-12｜How Scaling Laws Drive Smarter, More Powerful AI｜Kari Briski / NVIDIA｜公司博客/产业 taxonomy｜[直接：NVIDIA](https://blogs.nvidia.com/blog/ai-scaling-laws/)｜pretraining/post-training/test-time 三分法；仅作公司框架。｜专题：生命周期、社区、审计**
 - **B26｜2024-12-19｜Building Effective “Agents”｜Erik Schluntz, Barry Zhang / Anthropic｜官方工程文章｜[直接：Anthropic](https://www.anthropic.com/engineering/building-effective-agents)｜workflows、tools、ground truth、stopping 与 evals。｜专题：社区**
 - **B27｜2025-02-26｜NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2025｜NVIDIA IR｜公司财报材料｜[直接：NVIDIA IR](https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2025/)｜Data Center 与全年收入经营事实。｜专题：基建、审计**
@@ -91,13 +92,13 @@
 - **B31｜2025-04-24｜SK hynix Announces 1Q25 Financial Results｜SK hynix IR｜公司财报材料｜[直接：SK hynix](https://news.skhynix.com/en/sk-hynix-announces-1q25-financial-results/)｜HBM 供货约提前一年协商及需求预测。｜专题：基建**
 - **B32｜2025-01-31｜Samsung Electronics Announces Fourth Quarter and FY 2024 Results｜Samsung IR｜公司财报材料｜[直接：Samsung](https://news.samsung.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2024-results)｜全年经营结果与 HBM/server DDR5 对 Memory 的贡献。｜专题：基建**
 - **B33｜2024-04-30｜Samsung Electronics Announces First Quarter 2024 Results｜Samsung IR｜公司财报材料｜[直接：Samsung](https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2024-results)｜HBM、DDR5、封装投资与 HBM3E 量产。｜专题：基建**
-- **B34｜2024-07-31｜Samsung Electronics Announces Results for Second Quarter of 2024｜Samsung｜公司财报材料｜[直接：Samsung 区域镜像](https://news.samsung.com/nl/samsung-electronics-announces-results-for-second-quarter-of-2024)｜AI 产品产能配置与普通先进 DRAM bit supply。**区域镜像，建议复核全球 IR 版本。**｜专题：基建**
+- **B34｜2024-07-31｜Samsung Electronics Announces Results for Second Quarter of 2024｜Samsung｜公司财报材料｜[直接：Samsung Global Newsroom](https://news.samsung.com/global/samsung-electronics-announces-results-for-second-quarter-of-2024)｜AI 产品产能配置与普通先进 DRAM bit supply。｜专题：基建**
 - **B35｜2025-04-30｜Samsung Electronics Announces First Quarter 2025 Results｜Samsung IR｜公司财报材料｜[直接：Samsung](https://news.samsung.com/global/samsung-electronics-announces-first-quarter-2025-results)｜HBM 销售下降的出口管制与产品延迟负向证据。｜专题：基建**
 - **B36｜2024-09-25｜Micron Reports Fourth Quarter and Full Year Fiscal 2024 Results｜Micron IR｜公司财报材料｜[直接：Micron IR](https://investors.micron.com/news/press-release/2024/Micron-Technology-Inc--Reports-Results-for-the-Fourth-Quarter-and-Full-Year-of-Fiscal-2024-09-25-2024/default.aspx)｜FY2024 收入与 AI data-center/HBM ramp。｜专题：基建**
-- **B37｜2024-12-18｜Micron Fiscal Q1 2025 Prepared Remarks｜Micron IR｜公司财报材料｜[官方季度材料归档](https://investors.micron.com/financials/quarterly-results/default.aspx)；[补充：逐字稿镜像](https://www.fool.com/earnings/call-transcripts/2024/12/18/micron-technology-mu-q1-2025-earnings-call-transcr/)｜原 PDF 直链现跳转 IR 首页；“sold out”、定价及 HBM 收入预测均为当时管理层表述。｜专题：基建**
+- **B37｜2024-12-18｜Micron Fiscal Q1 2025 Prepared Remarks｜Micron IR｜公司财报材料｜[直接：Micron 官方 PDF](https://micron.gcs-web.com/static-files/21b50828-dd30-429f-9502-b1ebc452c6e3)；[官方季度材料归档](https://micron.gcs-web.com/quarterly-results)｜“sold out”、定价及 HBM 收入预测均为当时管理层表述。｜专题：基建**
 - **B38｜2025-03-20｜Micron Fiscal Q2 2025 Prepared Remarks｜Micron IR｜公司财报材料｜[直接：Micron 官方 CDN PDF](https://s25.q4cdn.com/621799436/files/doc_financials/2025/q2/Micron_FY25_Q2_Prepared_Remarks_2-1.pdf)｜HBM3E 同 bit output 约 3× DDR5 硅耗。｜专题：基建、审计**
 - **B39｜2024-07-30｜Microsoft FY2024 Q4 Earnings Conference Call｜Microsoft IR｜公司财报/电话会｜[直接：Microsoft IR](https://www.microsoft.com/en-us/investor/events/fy-2024/earnings-fy-2024-q4)｜capex、云/AI 配置与容量约束。｜专题：基建、审计**
-- **B40｜2024-10-29｜Alphabet 2024 Q3 Earnings Call｜Alphabet IR｜公司财报/电话会｜[直接：Alphabet IR](https://abc.xyz/investor/events/event-details/2024/2024-Q3-Earnings-Call/)｜技术基础设施中服务器与数据中心/网络构成。｜专题：基建、审计**
+- **B40｜2024-10-29｜Alphabet 2024 Q3 Earnings Call｜Alphabet IR｜公司财报/电话会｜[直接：Alphabet earnings-call page](https://abc.xyz/2024-q3-earnings-call/)｜技术基础设施中服务器与数据中心/网络构成。｜专题：基建、审计**
 - **B41｜2025-01-29｜Meta Reports Fourth Quarter and Full Year 2024 Results｜Meta IR｜公司财报材料｜[直接：Meta IR](https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/)｜2024 capex 与 2025 AI/core business 投资口径。｜专题：基建、审计**
 - **B42｜2025-02-06｜Amazon Q4 2024 Earnings Conference Call｜Amazon IR｜公司电话会｜[直接：Amazon IR](https://ir.aboutamazon.com/events/event-details/2025/Q4-2024-Amazoncom-Inc-Earnings-Conference-Call/default.aspx)；[补充：现有逐字稿副本](https://thetranscript.net/transcript/7502/amazon.com-q4-2024-earnings-report)｜AWS/AI 基础设施采购与需求信号。**官方页为 webcast/材料，逐字引用需人工对照音频。**｜专题：基建、审计**
 - **B43｜2018-05-16｜AI and Compute｜OpenAI｜公司研究博客｜[直接：OpenAI](https://openai.com/index/ai-and-compute/)｜2012–2018 大型训练运行算力增长的历史背景。｜专题：KC**
@@ -112,7 +113,7 @@
 ## C — 独立综合、教学、媒体与行业研究（24）
 
 - **C01｜2026-06-24｜Scaling Laws, Carefully｜Lilian Weng｜技术综述｜[直接：作者站](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/)｜拟合区间、参数计数、tokenizer、数据 mix 与优化器 caveat。｜专题：总览、KC、审计**
-- **C02｜2024-03-05｜Large Language Models explained briefly｜Grant Sanderson / 3Blue1Brown｜科普视频/图文课｜[直接：YouTube](https://www.youtube.com/watch?v=LPZh9BOjkQs)；[补充：图文课](https://www.3blue1brown.com/lessons/mini-llm/)｜无公式视觉解释与叙事节奏样板。｜专题：叙事**
+- **C02｜2024-11-20｜Large Language Models explained briefly｜Grant Sanderson / 3Blue1Brown｜科普视频/图文课｜[直接：YouTube](https://www.youtube.com/watch?v=LPZh9BOjkQs)；[补充：Bilibili 官方双语版](https://www.bilibili.com/video/BV1xmA2eMEFF/)；[补充：图文课](https://www.3blue1brown.com/lessons/mini-llm/)｜约 7:58 的无公式视觉解释与叙事节奏样板。｜专题：叙事**
 - **C03｜2023-06｜Scaling laws and compute-optimal models｜DeepLearning.AI × AWS；Antje Barth et al.｜教学视频/课程｜[直接：课程逐字稿](https://learn.deeplearning.ai/courses/generative-ai-with-llms/lesson/v5xa6/scaling-laws-and-compute-optimal-models)；[课程页](https://www.deeplearning.ai/courses/generative-ai-with-llms)｜短篇预算框架与 Chinchilla 教学。｜专题：叙事**
 - **C04｜2024-08-20｜Can AI scaling continue through 2030?｜Jaime Sevilla et al., Epoch AI｜独立研究报告｜[直接：Epoch AI](https://epoch.ai/publications/can-ai-scaling-continue-through-2030)｜电力、芯片、数据和延迟四瓶颈地图。｜专题：叙事**
 - **C05｜2024-03-04｜Large language models can do jaw-dropping things. But nobody knows exactly why.｜Will Douglas Heaven / MIT Technology Review｜媒体长文｜[直接：MIT Technology Review](https://www.technologyreview.com/2024/03/04/1089403/large-language-models-amazing-but-nobody-knows-why/)｜经验可预测性与机制理解之间的边界。｜专题：叙事、审计**
@@ -128,8 +129,8 @@
 - **C15｜2025-06-24｜Anthropic wins key US ruling on AI training in authors’ copyright lawsuit｜Blake Brittain / Reuters｜媒体报道｜[直接：Reuters](https://www.reuters.com/legal/litigation/anthropic-wins-key-ruling-ai-authors-copyright-lawsuit-2025-06-24/)｜独立概括 Bartz 简易判决程序状态。**Reuters 可能返回 401。**｜专题：数据、审计**
 - **C16｜2024-03-18｜2024 HBM Supply Bit Growth Estimated to Reach 260%, Making Up 14% of DRAM Industry｜TrendForce｜行业研究｜[直接：TrendForce](https://www.trendforce.com/presscenter/news/20240318-12081.html)｜HBM die、yield、周期与产能估计。｜专题：基建、审计**
 - **C17｜2024-05-20｜HBM3e Production Surge Expected to Make Up 35% of Advanced Process Wafer Input｜TrendForce｜行业研究｜[直接：TrendForce](https://www.trendforce.com/presscenter/news/20240520-12143.html)｜先进制程 wafer input 竞争估计。｜专题：基建**
-- **C18｜2024-12-23｜Markets in 2024: Wall Street’s high-octane rally keeps investors captive to the US｜Reuters｜媒体/市场报道｜[直接：Reuters](https://www.reuters.com/markets/global-markets-year-end-graphic-2024-12-23/)｜NVIDIA 2024 回报的市场交叉核验。**可能有访问限制；行情需统一数据商重算。**｜专题：基建**
-- **C19｜2025-01-08｜Samsung’s preliminary Q4 profit falls far short of estimates as chip issues drag｜Reuters｜媒体/市场报道｜[直接：Reuters](https://www.reuters.com/business/media-telecom/samsung-fourth-quarter-operating-profit-outlook-misses-estimates-by-large-margin-2025-01-07/)｜Samsung/SK hynix 2024 股价分化与执行背景。**可能有访问限制。**｜专题：基建、审计**
+- **C18｜2024-12-23；12-31 更新｜Markets in 2024: Wall Street’s high-octane rally keeps investors captive to the US｜Reuters｜媒体/市场报道｜[直接：Reuters](https://www.reuters.com/markets/global-markets-year-end-graphic-2024-12-23/)｜12-31 更新稿支持 NVIDIA 2024 `+178%`；12-23 初稿为 172%。**Reuters canonical 可能返回 401；行情仍需统一数据商重算。**｜专题：基建**
+- **C19｜2025-01-08｜Samsung’s preliminary Q4 profit falls far short of estimates as chip issues drag｜Reuters｜媒体/市场报道｜[直接：Reuters](https://www.reuters.com/business/media-telecom/samsung-fourth-quarter-operating-profit-outlook-misses-estimates-by-large-margin-2025-01-07/)｜Samsung/SK hynix 2024 股价分化与执行背景。**Reuters canonical 可能返回 401。**｜专题：基建、审计**
 - **C20｜动态查询；2024 数据｜MU stock returns 2024｜StatMuse Money｜市场数据查询页｜[直接：StatMuse](https://www.statmuse.com/money/ask/mu-stock-returns-2024)｜Micron 2024 约 +0.6% 的低等级交叉值。**动态行情口径，发布前必须用授权统一数据源替换。**｜专题：基建、审计**
 - **C21｜2026-07-21｜Court Grants Final Approval of $1.5 Billion Anthropic Copyright Settlement｜Authors Guild｜利益相关组织说明｜[直接：Authors Guild](https://authorsguild.org/news/court-grants-final-approval-anthropic-copyright-settlement/)｜交叉核对 final approval 与分配说明；法律结论以法院命令为准。｜专题：审计**
 - **C22｜2026-07-21｜Bartz v. Anthropic Settlement Receives Final Approval｜Authors Alliance｜法律/政策说明｜[直接：Authors Alliance](https://www.authorsalliance.org/2026/07/21/bartz-v-anthropic-settlement-receives-final-approval/)｜交叉核对 final approval、费用和生效条件；法律结论以法院命令为准。｜专题：审计**
@@ -160,13 +161,13 @@ HN points/comments 都是 2026-08-24 查询快照；评论者身份通常不可�
 
 以下 **19 条材料（15 类问题）**都已有至少一个直接链接；问题是访问、版本、动态性或逐字引用可靠性，不是完全缺链。
 
-1. **A36 Bartz final approval**：DocumentCloud/第三方托管法院文件可恢复；需通过 PACER/第九巡回 docket 核验 2026-08-24 时点的上诉、生效与分配状态。
+1. **A36 Bartz final approval**：Justia 托管的 Dkt. 680 法院 PDF 可访问；仍需通过 PACER/第九巡回 docket 核验 2026-08-24 时点的上诉、生效与分配状态。
 2. **B11 OpenAI foundation-model data 说明**：持续更新且无稳定首发日期；引用时记录访问日或使用网页存档。
-3. **B12 OpenAI Data Partnerships**：抓取曾超时；正式引用前重开原页。
+3. **B12 OpenAI Data Partnerships**：2026-08-24 链接检查返回 200；正式引用仍应把征集意图与已采用数据分开。
 4. **B15 Stack Overflow partnership**：原页可能触发 JavaScript 验证。
-5. **B17 OpenAI o1 技术说明**：抓取曾超时；不要从搜索摘要恢复曲线措辞。
+5. **B17 OpenAI o1 技术说明**：2026-08-24 链接检查返回 200；曲线属于团队自报，不要用搜索摘要替代原页。
 6. **B21 Yann LeCun 访谈**：网页 transcript 可用，逐字引语仍需对照音频。
-7. **B22 梁文锋微信访谈**：原始微信链接可能不稳定；保留日期镜像作恢复路径。
+7. **B22 梁文锋访谈**：原微信链接已成为删除页；现以 36Kr/暗涌 2024-07-22 页面为主，并保留 2024-07-18 镜像说明日期差异。
 8. **B42 Amazon Q4 2024 call**：已把直接链接修复为 Amazon 官方 IR event；逐字稿仍是二手托管，引用需对照官方 webcast。
 9. **B45 Jared Kaplan 讲座**：YouTube 自动字幕需人工复听。
 10. **B47 Noam Brown / Sequoia 视频**：逐字稿可读，但“首都 vs Sudoku”逐字引用需复听。

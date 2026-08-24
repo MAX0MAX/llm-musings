@@ -27,7 +27,7 @@
 ### 1. 精选｜Large Language Models explained briefly
 
 - **作者/频道：** Grant Sanderson / 3Blue1Brown
-- **发布日期：** 2024-03-05
+- **发布日期：** 2024-11-20
 - **链接：** [YouTube](https://www.youtube.com/watch?v=LPZh9BOjkQs) · [图文课页](https://www.3blue1brown.com/lessons/mini-llm/)
 - **类型：** 视觉科普短片；有字幕与图文版
 - **一句话收录理由：** 它不专讲 scaling law，却是本项目最应模仿的“无公式建立正确直觉”样板。
@@ -35,7 +35,7 @@
 - **解释顺序：** 可见行为 → next-token prediction → 海量文本 → 参数旋钮 → 训练反馈 → Transformer 内部；每一步只引入一个新对象。
 - **类比：** 参数是大机器上的大量可调旋钮；训练是根据一次次猜错微调旋钮。
 - **视觉手法：** 同一对象在画面中持续变形；数字先被转成可感知尺度（读完 GPT-3 数据需约 2,600 年），再给术语。
-- **信息节奏：** 约 6 分钟只完成一条因果链，细节留给后续章节；旁白总比画面晚半拍命名。
+- **信息节奏：** 约 8 分钟只完成一条因果链，细节留给后续章节；旁白总比画面晚半拍命名。
 - **认知反转：** 看似会说话的系统，核心训练信号极其朴素。
 - **结尾方式：** 收束成一个可继续展开的内部结构，而非列总结清单。
 - **可借鉴点：** 用“筹码”替代抽象 FLOPs；先让观众看见移动，再说“固定算力预算”；相邻静态页模拟视频中的连续变形。
@@ -421,7 +421,7 @@ Kaplan、Chinchilla、Llama overtraining 和 test-time compute 的表面矛盾�
 
 ### 90 分钟核心路径
 
-1. **3Blue1Brown — Large Language Models explained briefly（6 分钟）**：先校准视觉语法和无公式密度。
+1. **3Blue1Brown — Large Language Models explained briefly（约 8 分钟）**：先校准视觉语法和无公式密度。
 2. **DeepLearning.AI — Scaling laws and compute-optimal models（8 分钟）**：得到参数、数据、compute 与 Chinchilla 的最短骨架。
 3. **Jared Kaplan 讲座选段（约 20 分钟）**：看开头的 organizing principle、loss 曲线和 fixed-compute 部分，不必看完整代码段。
 4. **Latent Space / Thomas Scialom（读 09:56 起的 Chinchilla 段和部署段，约 15 分钟）**：理解“训练最优”和“服务最优”的差别。

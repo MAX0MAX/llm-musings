@@ -8,7 +8,7 @@
 
 现有三幕结构可以保留，但必须修正四个会改变叙事可信度的问题：
 
-1. **开场不能说“四家公司股价一起疯涨”。** 2024 同窗口的现有交叉数据是 NVIDIA `+178%`、SK hynix `+23%`、Samsung Electronics `−32%`、Micron 约 `+0.6%`；后者还缺统一机构行情源复算。安全说法是“AI 硬件链被重新定价，但表现明显分化”，或直接改用经营事实卡。
+1. **开场不能说“四家公司股价一起疯涨”。** 2024 同窗口的现有交叉数据是 NVIDIA `+178%`（Reuters 2024-12-31 更新稿；12-23 初稿为 172%）、SK hynix `+23%`、Samsung Electronics `−32%`、Micron 约 `+0.6%`；后者还缺统一机构行情源复算。安全说法是“AI 硬件链被重新定价，但表现明显分化”，或直接改用经营事实卡。
 2. **Anthropic/OpenAI 案例只能作为 data scaling 的工程与战略证据。** 它们证明公司在扩大数据覆盖、质量控制、授权、人工及合成数据渠道；不能单独证明更多数据导致多少能力提升。因果主证据仍应是 Chinchilla、GPT-3 数据工程、数据重复和 RefinedWeb 等受控实验。
 3. **Kaplan → Chinchilla 仍适合承担第二幕。** 这是最清楚的固定预训练算力分配反转，但要把 Kaplan 从“起点/正确处方”改成“Transformer LM scaling 的系统化与训练规划节点”，补一句 Hestness/Rosenfeld 前史，并在 Chinchilla 后补上 inference-optimal 的目标函数变化。
 4. **“Scale 整个生命周期”应作为产业框架。** 可把“预算和性能已扩展到预训练之外”作为事实弱版本，把“如何配置全生命周期资源”作为主框架，把 experience/RL 等作为战略下注；不能称为一条、或三条，与经典 loss scaling 同等成熟的新定律。
@@ -149,11 +149,11 @@
 | Demis / Dwarkesh transcript | 可访问 | B 级原始访谈 |
 | Shunyu Yao 原文 | 可访问 | B 级观点/议程 |
 | NVIDIA “three laws” | 可访问；正文带明显 GPU 需求叙事 | B/D 用途，不作技术 law |
-| OpenAI `Learning to reason with LLMs` | 本次抓取超时 | 需要浏览器或存档人工复核；不据此判死链 |
+| OpenAI `Learning to reason with LLMs` | 2026-08-24 全量检查返回 200 | 页面可访问；曲线仍是公司自报，引用应回到原页 |
 | Reuters Anthropic 链接 | 返回 401 | 付费/访问限制；法律数字回到法院命令 |
-| Hacker News 样本页 | 本次抓取超时 | E 级快照；正式引用需人工重开 |
+| Hacker News 样本页 | 自动请求返回 403/429；15 个 item ID 均经官方 Firebase API 确认存在 | E 级动态快照，不作事实证据 |
 
-没有逐一重抓全部 100+ 链接；抽查覆盖了每幕主证据、2026 新索引、法律材料和已知访问受限来源。
+本节仍是语义抽查。后续全量检查已覆盖 topic 内 13 个 Markdown 文件的全部本地与外部目标；状态、方法和修复记录见 [LINK_CHECK.md](LINK_CHECK.md)。
 
 ## 六、14 页逐页证据裁决
 
@@ -521,7 +521,7 @@ GPT-4 报告可作为实验室公开采用小模型外推的 B 级案例。
 ### 必须在制作/发布前人工复核
 
 1. **YouTube 自动字幕**：Jared Kaplan、Noam Brown、Computerphile、Yann LeCun 等任何逐字引用、术语、人名和时间戳。
-2. **付费墙/访问限制**：Reuters 401；SemiAnalysis 付费正文；无法完整抓取的 OpenAI 页面。不要从搜索摘要恢复长引语。
+2. **付费墙/访问限制**：Reuters 401；SemiAnalysis 付费正文；部分 IR/HN/社交页面可能触发机器人限制。不要从搜索摘要恢复长引语。
 3. **实时股价**：四股统一数据商、交易所日历、复权方式、端点日期、币种和股息口径；当前 Micron `+0.6%` 仅为低等级交叉值。
 4. **财报刷新**：当前开场经营窗口主要是 2024/early-2025；若演讲要说“最近”，必须重开最新 10-Q/10-K、DART/KRX 和 earnings transcript。
 5. **Bartz docket**：2026-07-20 final approval 已核验；截至 2026-08-24 的任何上诉及 settlement effective/distribution 状态需 PACER/第九巡回 docket 人工复核。
@@ -554,7 +554,7 @@ GPT-4 报告可作为实验室公开采用小模型外推的 B 级案例。
 14. Bartz 条目将 2025 order 与 2026 final settlement order 分成两个 A 级来源，不再让 Reuters 承担法律状态。
 15. 把 “Team at publication” 等身份字段统一为论文作者/机构，不将第一作者、模型名和团队名混写。
 16. 保留并加粗四个 context flags：`R1-Zero ≠ R1`、`100,000× = poker`、`three laws = taxonomy`、`loss ≠ capability`。
-17. 新增“访问限制”小节：Reuters 401、OpenAI timeout、YouTube 自动字幕、SemiAnalysis paywall、HN 动态快照。
+17. 新增“访问限制”小节：Reuters 401、动态公司页面、YouTube 自动字幕、SemiAnalysis paywall、HN 动态快照；后续全量结果见 `LINK_CHECK.md`。
 18. 将 Era of Experience 和 The Second Half 明确放入 `Research agendas / viewpoints`，不要与 A 级实证论文并列成已成立 axis。
 19. 删除来源卡中对同一 claim 的重复“最清楚/最权威/最关键”形容词，改为明确它支持哪一页、哪一句 claim。
 20. README 末尾增加一条总边界：等级代表用途；A 级单篇论文也不自动建立跨任务通用 law。
