@@ -37,12 +37,8 @@ Engineers and technically curious people who work with LLMs but do not necessari
 
 Scaling laws are empirical relationships that help us predict how model performance changes as resources grow. They make large training runs more predictable, but they are not laws of intelligence and do not guarantee that every capability improves smoothly.
 
-## Starting points
+## References
 
-- [How Scaling Laws Will Determine AI's Future](https://www.youtube.com/watch?v=d6Ed5bZAtrM) — Y Combinator
-- [Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/) — Lilian Weng
-- [How to Build AI Scaling Laws for Efficient LLM Training](https://news.mit.edu/2025/how-build-ai-scaling-laws-efficient-llm-training-budget-maximization-0916) — MIT News
-- [Scaling Laws for Neural Language Models](https://openai.com/index/scaling-laws-for-neural-language-models/) — OpenAI
-- [Training Compute-Optimal Large Language Models](https://arxiv.org/abs/2203.15556) — Chinchilla paper
+See the organized [reference list](reference/README.md) for the recommended reading order and links to videos, explanatory articles, and primary papers.
 
-More detailed notes, references, and slides will be added as the talk develops.
+More detailed notes and slides will be added as the talk develops.
